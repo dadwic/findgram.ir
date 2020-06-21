@@ -1,11 +1,11 @@
 {
   "name": "FindgramBot",
-  "version": "0.1.0",
+  "version": "1.2.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.19.2",
     "babel-polyfill": "^6.26.0",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.1",
     "jsxstyle": "^1.0.2",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.3",
