@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'IRANSans';
+    src: url('../fonts/iran-sans/IRANSans-web.eot');
+    src: url('../fonts/iran-sans/IRANSans-web.eot?#iefix') format('eot'),
+    url('../fonts/iran-sans/IRANSans-web.woff') format('woff'),
+    url('../fonts/iran-sans/IRANSans-web.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'IRANSans';
+    src: url('../fonts/iran-sans/IRANSans-Bold-web.eot');
+    src: url('../fonts/iran-sans/IRANSans-Bold-web.eot?#iefix') format('eot'),
+    url('../fonts/iran-sans/IRANSans-Bold-web.woff') format('woff'),
+    url('../fonts/iran-sans/IRANSans-Bold-web.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'IRANSans';
+    src: url('../fonts/iran-sans/IRANSans-UltraLight-web.eot');
+    src: url('../fonts/iran-sans/IRANSans-UltraLight-web.eot?#iefix') format('eot'),
+    url('../fonts/iran-sans/IRANSans-UltraLight-web.woff') format('woff'),
+    url('../fonts/iran-sans/IRANSans-UltraLight-web.ttf') format('truetype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'IRANSans';
+    src: url('../fonts/iran-sans/IRANSans-Light-web.eot');
+    src: url('../fonts/iran-sans/IRANSans-Light-web.eot?#iefix') format('eot'),
+    url('../fonts/iran-sans/IRANSans-Light-web.woff') format('woff'),
+    url('../fonts/iran-sans/IRANSans-Light-web.ttf') format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'IRANSans';
+    src: url('../fonts/iran-sans/IRANSans-Medium-web.eot?#iefix') format('eot'),
+    url('../fonts/iran-sans/IRANSans-Medium-web.woff') format('woff'),
+    url('../fonts/iran-sans/IRANSans-Medium-web.ttf') format('truetype');
+    font-weight: 500;
+}
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'IRANSans';
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Helpers */
+._bNa {
+    font-size: 2em!important;
+    font-weight: 600;
+}
+._pgwIm {
+    height: 64px;
+}
+._pgwIm.sh {
+    padding-left: 20px;
+    border-left: 1px solid #cccccc;
+}
+._pgwIm.bpm {
+    margin-right: 20px;
+}
+._FgIcns {
+    display: block;
+    font-size: 5em;
+    font-weight: 200;
+}
+._FgIcns.success {
+    color: #28a745;
+}
+._FgIcns.danger {
+    color: #a94442;
+}
+._FgIcns.tg {
+    color: #0088cc;
+}
+._rQf:before {
+    content: '*';
+    margin-left: 2px;
+    font-size: 13px;
+}
+._rQf {
+    font-size: 10px;
+    color: #dc3545;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
